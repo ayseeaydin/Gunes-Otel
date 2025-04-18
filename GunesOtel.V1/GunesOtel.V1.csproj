@@ -47,19 +47,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\AuthManager.cs" />
     <Compile Include="DataAccess\SqlHelper.cs" />
-    <Compile Include="FrmLogin.cs">
+    <Compile Include="Forms\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmLogin.Designer.cs">
+    <Compile Include="Forms\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAdminMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmAdminMain.Designer.cs">
-      <DependentUpon>FrmAdminMain.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Helpers\SecurityHelper.cs" />
+    <Compile Include="Helpers\SessionHelper.cs" />
     <Compile Include="Models\EkHizmet.cs" />
     <Compile Include="Models\Fiyat.cs" />
     <Compile Include="Models\Kullanici.cs" />
@@ -72,10 +69,7 @@
     <Compile Include="Models\Sezon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAdminMain.resx">
-      <DependentUpon>FrmAdminMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLogin.resx">
+    <EmbeddedResource Include="Forms\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -100,9 +94,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Forms\" />
-    <Folder Include="Helpers\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
