@@ -44,7 +44,6 @@
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.lblUserName = new System.Windows.Forms.Label();
-            this.picUserAvatar = new System.Windows.Forms.PictureBox();
             this.lblFormTitle = new System.Windows.Forms.Label();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
@@ -75,7 +74,6 @@
             this.pnlLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.pnlHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar)).BeginInit();
             this.pnlContent.SuspendLayout();
             this.pnlDashboard.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -307,7 +305,6 @@
             // 
             this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(215)))), ((int)(((byte)(185)))));
             this.pnlHeader.Controls.Add(this.lblUserName);
-            this.pnlHeader.Controls.Add(this.picUserAvatar);
             this.pnlHeader.Controls.Add(this.lblFormTitle);
             this.pnlHeader.Controls.Add(this.btnMinimize);
             this.pnlHeader.Controls.Add(this.btnMaximize);
@@ -331,17 +328,6 @@
             this.lblUserName.TabIndex = 5;
             this.lblUserName.Text = "Yönetici Admin";
             this.lblUserName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // picUserAvatar
-            // 
-            this.picUserAvatar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.picUserAvatar.Location = new System.Drawing.Point(1217, 37);
-            this.picUserAvatar.Margin = new System.Windows.Forms.Padding(4);
-            this.picUserAvatar.Name = "picUserAvatar";
-            this.picUserAvatar.Size = new System.Drawing.Size(53, 49);
-            this.picUserAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picUserAvatar.TabIndex = 4;
-            this.picUserAvatar.TabStop = false;
             // 
             // lblFormTitle
             // 
@@ -693,7 +679,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picUserAvatar)).EndInit();
             this.pnlContent.ResumeLayout(false);
             this.pnlDashboard.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -758,6 +743,5 @@
         private System.Windows.Forms.Label lblCopyright;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblUserName;
-        private System.Windows.Forms.PictureBox picUserAvatar;
     }
 }
