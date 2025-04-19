@@ -55,6 +55,24 @@
     <Compile Include="Forms\FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmMudurAnaPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMudurAnaPanel.Designer.cs">
+      <DependentUpon>FrmMudurAnaPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmResepsiyonAnaPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmResepsiyonAnaPanel.Designer.cs">
+      <DependentUpon>FrmResepsiyonAnaPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmYoneticiAnaPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmYoneticiAnaPanel.Designer.cs">
+      <DependentUpon>FrmYoneticiAnaPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\SecurityHelper.cs" />
     <Compile Include="Helpers\SessionHelper.cs" />
     <Compile Include="Models\EkHizmet.cs" />
@@ -71,6 +89,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmYoneticiAnaPanel.resx">
+      <DependentUpon>FrmYoneticiAnaPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
